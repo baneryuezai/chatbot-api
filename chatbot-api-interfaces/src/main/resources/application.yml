@@ -1,6 +1,12 @@
 server:
   port: 8090
 
+
+chatbot-api:
+  groupId: 88885511211882
+  cookie: zsxq_access_token=DA21E851-D15F-A784-C85F-F72238F9C836_1B7DF7ADDBC0FF82; zsxqsessionid=90c3ca1dcc7a859eaadba0a184d18998
+  openApiKey: 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
+
 # 分组任务配置
 #chatbot-api:
 #  launchList: group01,group02 # 启动几组，就配置几组
