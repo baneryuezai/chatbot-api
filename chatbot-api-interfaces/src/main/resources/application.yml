@@ -4,8 +4,9 @@ server:
 
 chatbot-api:
   groupId: 88885511211882
-  cookie: zsxq_access_token=DA21E851-D15F-A784-C85F-F72238F9C836_1B7DF7ADDBC0FF82; zsxqsessionid=90c3ca1dcc7a859eaadba0a184d18998
-  openApiKey: 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
+  cookie: zsxq_access_token=BEB5B79B-0C33-F190-D0FA-89B1598A3A45_1B7DF7ADDBC0FF82; zsxqsessionid=058fbf61eba56e65ffe4b5a7d81942bd; abtest_env=product; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross={"distinct_id":"841115428542142","first_id":"18620b10ece983-04a5e40c1482128-7d5d547c-1821369-18620b10ecfc68","props":{},"identities":"eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg2MjBiMTBlY2U5ODMtMDRhNWU0MGMxNDgyMTI4LTdkNWQ1NDdjLTE4MjEzNjktMTg2MjBiMTBlY2ZjNjgiLCIkaWRlbnRpdHlfbG9naW5faWQiOiI4NDExMTU0Mjg1NDIxNDIifQ==","history_login_id":{"name":"$identity_login_id","value":"841115428542142"},"$device_id":"18620b10ece983-04a5e40c1482128-7d5d547c-1821369-18620b10ecfc68"}
+  openApiKey: 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
+
 
 # 分组任务配置
 #chatbot-api:

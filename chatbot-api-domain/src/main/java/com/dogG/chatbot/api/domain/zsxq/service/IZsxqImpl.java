@@ -49,7 +49,7 @@ public class IZsxqImpl implements IZsxqApi {
     }
 
     @Override
-    public boolean answer(String groupId, String cookie, String topicId, String text, boolean silenced) throws IOException {
+    public void answer(String groupId, String cookie, String topicId, String text, boolean silenced) throws IOException {
 
         //        ===============   准备阶段
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
@@ -85,7 +85,7 @@ public class IZsxqImpl implements IZsxqApi {
             String jsonStr = EntityUtils.toString(entity);
             logger.info("回答提问数据。groupId:{} topicId:{} jsonStr:{}",groupId,topicId,jsonStr);
             AnswerRes answerRes = JSON.parseObject(jsonStr, AnswerRes.class);
-            return answerRes.isSucceeded();
+//            return answerRes.isSucceeded();
         } else {
             throw new RuntimeException("Answer Err is" + response.getStatusLine().getStatusCode());
         }

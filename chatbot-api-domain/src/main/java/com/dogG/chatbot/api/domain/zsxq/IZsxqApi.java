@@ -19,7 +19,7 @@ public interface IZsxqApi {
 
     /**
      *
-     * @param groupId   星球上的请求带的
+     * @param groupId   星球上的请求带的组名ID
      * @param cookie    cookie
      * @param topicId   提问的问题id
      * @param text      提问的内容
@@ -27,5 +27,5 @@ public interface IZsxqApi {
      * @return
      * @throws IOException
      */
-    boolean answer(String groupId, String cookie, String topicId, String text, boolean silenced) throws IOException;
+    void answer(String groupId, String cookie, String topicId, String text, boolean silenced) throws IOException;
 }
